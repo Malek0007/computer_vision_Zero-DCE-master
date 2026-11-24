@@ -1,0 +1,7 @@
+Image,Model,Brightness,Contrast,PSNR,SSIM,MAE
+26,Original,23.147,44.874,,,
+26,Authors pretrained,40.077,64.336,18.428,0.527,16.917
+29,Original,31.426,49.432,,,
+29,Authors pretrained,85.323,55.149,12.493,0.333,53.49
+63,Original,159.122,30.42,,,
+63,Authors pretrained,185.59,22.726,17.594,0.953,31.212

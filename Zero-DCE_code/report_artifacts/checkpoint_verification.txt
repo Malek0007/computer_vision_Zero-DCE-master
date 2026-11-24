@@ -1,0 +1,24 @@
+Zero-DCE checkpoint verification
+=================================
+Verification runtime device: cpu (MPS available: False)
+Model architecture: enhance_net_nopool; 79,416 parameters; 14 state-dictionary entries
+Each checkpoint loaded with weights_only=True and strict=True.
+Both checkpoints were forwarded on each of DICM images 26, 29, and 63; output dimensions matched the RGB input and values were finite.
+
+Authors' Pretrained
+  Path: Zero-DCE_code/snapshots/Epoch99.pth
+  Size: 320,017 bytes
+  SHA-256: a4395acb874f320375d9704997cef874eaaaaa26a1777ceb29a92b70f74c3612
+  State-dictionary entries: 14
+  Strict load: PASS (strict state-dict load)
+  Forward output shape on tested inputs: [1, 3, 480, 800]
+  Checkpoint hash unchanged during artifact generation: True
+
+My Trained Model
+  Path: Zero-DCE_code/snapshots_100epochs/Epoch99.pth
+  Size: 322,425 bytes
+  SHA-256: c3b1151371249e04ecdffc0a38c1e4673e859ccb6ec1e499b7a344caff76a4fe
+  State-dictionary entries: 14
+  Strict load: PASS (strict state-dict load)
+  Forward output shape on tested inputs: [1, 3, 480, 800]
+  Checkpoint hash unchanged during artifact generation: True

@@ -1,0 +1,10 @@
+image_id,model,checkpoint,brightness_mean_luminance_0_255,contrast_luminance_std_0_255,processing_time_seconds_mean,timing_repeats
+26,Original,,23.146570205688477,44.87443542480469,,0
+26,Authors' Pretrained,Zero-DCE_code/snapshots/Epoch99.pth,40.0772590637207,64.33583068847656,0.2552734586661245,3
+26,My Trained Model,Zero-DCE_code/snapshots_100epochs/Epoch99.pth,43.99953079223633,67.31684112548828,0.25569024999943696,3
+29,Original,,31.42568016052246,49.43158721923828,,0
+29,Authors' Pretrained,Zero-DCE_code/snapshots/Epoch99.pth,85.32315826416016,55.14853286743164,0.46519101400008367,3
+29,My Trained Model,Zero-DCE_code/snapshots_100epochs/Epoch99.pth,96.386474609375,54.06269454956055,0.4814238609997119,3
+63,Original,,159.12220764160156,30.42023277282715,,0
+63,Authors' Pretrained,Zero-DCE_code/snapshots/Epoch99.pth,185.5899658203125,22.726163864135742,0.2966769163334296,3
+63,My Trained Model,Zero-DCE_code/snapshots_100epochs/Epoch99.pth,189.49874877929688,22.135364532470703,0.2957330416666082,3

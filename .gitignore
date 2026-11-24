@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Datasets and generated images
+Zero-DCE_code/data/train_data/
+Zero-DCE_code/data/test_data/
+Zero-DCE_code/data/result/
+
+# Model checkpoints
+*.pth
+*.pt
+
+# Temporary files
+.ipynb_checkpoints/
